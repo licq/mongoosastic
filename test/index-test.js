@@ -16,7 +16,7 @@ var TalkSchema = new Schema({
   , abstract: {type:String, es_indexed:true}
   , bio: String
 });
-TalkSchema.plugin(mongoosastic)
+TalkSchema.plugin(mongoosastic);
 
 var Talk = mongoose.model("Talk", TalkSchema);
 
