@@ -15,8 +15,10 @@
   },
   "main": "lib/mongoosastic.js",
   "dependencies": {
+    "async": "^0.9.0",
     "elastical": "0.0.12",
-    "elasticsearch": "^2.1.4"
+    "elasticsearch": "^2.1.4",
+    "lodash": "^2.4.1"
   },
   "peerDependencies": {
     "mongoose": "3.8.x"
